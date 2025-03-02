@@ -10,10 +10,19 @@ body{
     color: #ffffff;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 2fr;    
+    grid-template-rows: 0.5fr 2fr 2fr;
+    
+}
+#sidebarHeader{
+
+}
+.sidebarNav{
+
 }
 
+.sidebarSettings{
 
+}
 
 .header{
     grid-column: 2/3;
