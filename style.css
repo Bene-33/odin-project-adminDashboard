@@ -20,25 +20,25 @@ body{
     font-weight: bold;
     display: grid;
     align-items: center;
-
 }
 
-/* #sidebarHeader{
+#sidebarHeader{
     display:grid;
-    align-items: center;
-    justify-content: center;
-    
-    
+    grid-template-columns: 0fr 2fr;
+    font-size: 2vw;
+
 }
+
 .sidebarNav{
     display:grid;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 0fr 2fr;
 }
 
 .sidebarSettings{
+    display:grid;
+    grid-template-columns: 0fr 2fr;
 
-} */
+}
 
 .header{
     grid-column: 2/3;
