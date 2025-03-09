@@ -18,20 +18,27 @@ body{
 .sidebar div{
     padding: 1rem;
     font-weight: bold;
+    display: grid;
+    align-items: center;
+
 }
 
-#sidebarHeader{
-    display:flex;
+/* #sidebarHeader{
+    display:grid;
     align-items: center;
+    justify-content: center;
+    
     
 }
 .sidebarNav{
-
+    display:grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .sidebarSettings{
 
-}
+} */
 
 .header{
     grid-column: 2/3;
