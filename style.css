@@ -93,7 +93,20 @@ body{
     grid-column: 2/3;
 }
 
-.main-content{
+.mainContent{
     grid-column: 2/3;
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+#mainProjectsHeader{
+    grid-column: 1/3;
 }
