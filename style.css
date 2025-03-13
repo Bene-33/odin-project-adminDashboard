@@ -110,3 +110,11 @@ body{
 #mainProjectsHeader{
     grid-column: 1/3;
 }
+
+.projectTile{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-left: 0.5em #f0b429 solid;
+}
