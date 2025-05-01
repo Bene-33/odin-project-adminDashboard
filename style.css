@@ -194,3 +194,24 @@ body{
 .mainSidebarSectionBoxLast{
     margin: 1vw 1vw 0vw 1vw;
 }
+
+.trendingSection{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.trendingSection svg{
+    width: 3vw;
+   justify-self: center;
+   grid-row: 1/3;
+
+}
+
+.trendingSectionName{
+    align-content: end;
+}
+
+.trendingSectionText{
+    color: #636363;
+    align-content: start;
+}
