@@ -201,9 +201,9 @@ body{
 
 }
 .trendingSection svg{
-    width: 3vw;
-   justify-self: center;
-   grid-row: 1/3;
+    height: 2vw;
+    justify-self: center;
+    grid-row: 1/3;
 
 }
 
