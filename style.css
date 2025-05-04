@@ -213,3 +213,29 @@ body{
 .trendingSectionText{
     color: #636363;
 }
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.header svg{
+    width: 2vw;
+}
+
+.headerSearchbar{
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+}
+
+#searchbar{
+    background-color:#cec9c9;
+    height: 2vw;
+    border-radius: 1vw;
+    margin: 1vw 2vw 1vw 1vw;
+}
+
+.headerSearchbar svg{
+    width: 2vw;
+    padding: 1vw 0vw 1vw 1vw;
+    align-content: right;
+}
