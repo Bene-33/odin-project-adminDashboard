@@ -225,6 +225,7 @@ body{
 .headerSearchbar{
     display: grid;
     grid-template-columns: 0fr 2fr;
+    padding: 1vw 0vw 1vw 1vw;
 }
 
 #searchbar input{
@@ -232,13 +233,22 @@ body{
     width: 40vw;
     height: 2vw;
     border-radius: 1vw;
-    margin: 1vw 2vw 1vw 1vw;
     border: inherit;
 }
 
 .headerSearchbar svg{
     width: 2vw;
-    padding: 1vw 0vw 1vw 1vw;
     align-content: right;
 }
 
+.headerUserSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    align-items: left;
+    padding: 1vw 0vw 1vw 1vw;
+}
+
+.user{
+    font-size: 150%;
+    font-weight: bold;    
+}
