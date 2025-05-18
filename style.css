@@ -225,7 +225,7 @@ body{
 .headerSearchbar{
     display: grid;
     grid-template-columns: 0fr 2fr;
-    padding: 1vw 0vw 1vw 1vw;
+    padding: 1vw 0vw 0vw 1vw;
 }
 
 #searchbar input{
@@ -244,11 +244,42 @@ body{
 .headerUserSection{
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-    align-items: left;
-    padding: 1vw 0vw 1vw 1vw;
+    align-items: center;
+    padding: 1vw 0vw 0vw 1vw;
 }
 
 .user{
     font-size: 150%;
     font-weight: bold;    
+}
+
+.headerGreetingSection{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 200%;
+    font-weight: bold;
+    align-content: center;
+    align-items: center;
+}
+
+.headerGreetingSection svg{
+    width: 9vw;
+}
+
+.headerManageButtonSection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    justify-items: center;
+
+}
+
+.manageButton{
+    background-color: #1992d4;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    border-radius: 1.5vw;
+    padding: 0.5vw 1.5vw;
+    margin: 0vw 1vw ;
 }
