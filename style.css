@@ -226,6 +226,7 @@ body{
     display: grid;
     grid-template-columns: 0fr 2fr;
     padding: 1vw 0vw 0vw 1vw;
+    align-content: center;
 }
 
 #searchbar input{
